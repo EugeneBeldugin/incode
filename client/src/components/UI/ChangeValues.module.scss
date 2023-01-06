@@ -1,0 +1,27 @@
+.change {
+  &--positive {
+    @apply text-green-500;
+  }
+
+  &--none {
+    @apply text-gray-600;
+  }
+
+  &--negative {
+    @apply text-red-500;
+  }
+}
+
+.percent {
+  &--positive {
+    @apply bg-green-400 text-white flex justify-end px-1 rounded-sm;
+  }
+
+  &--negative {
+    @apply bg-red-400 text-white flex justify-end px-1 rounded-sm;
+  }
+
+  &--none {
+    @apply bg-slate-300 text-white flex justify-end px-1 rounded-sm;
+  }
+}
